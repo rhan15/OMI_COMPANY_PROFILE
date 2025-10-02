@@ -1,0 +1,63 @@
+.berita-container{
+    margin-bottom: 60px;
+}
+
+.berita-section{
+    margin-bottom: 30px;
+}
+
+.berita-page a{
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.berita-page .card .thumbnail {
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.thumbnail img{
+    border-radius: 6px;
+}
+
+.berita-page .card-body {
+    font-family: Markazi Text !important;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.berita-page .title h5 {
+    text-align: left !important;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.berita-page .tanggal {
+    font-size: 15px;
+    line-height: 10px;
+    color: gray;
+}
+
+/* tambahan */
+
+.judul_promosi{
+    width: fit-content;
+    margin:auto;
+    background-color:#00903C;
+    color:#FEFF01;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.link_a{
+    padding: 5px;
+}

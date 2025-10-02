@@ -1,0 +1,42 @@
+.btn-primary {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color: #228b3b !important;
+    border-color: #228b3b !important; /*set the color you want here*/
+}
+
+.select2-results__option.select2-results__option--highlighted {
+    background-color: #28a745 !important;
+}
+
+.select2-container--bootstrap4.select2-container--focus .select2-selection {
+    border-color: #28a745 !important;
+    box-shadow: none !important;
+}
+
+.select2-container--bootstrap4 .select2-dropdown {
+    border-color: #28a745 !important;
+}
+
+[class*=sidebar-dark] .nav-legacy .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark] .nav-legacy .nav-treeview>.nav-item>.nav-link:focus, [class*=sidebar-dark] .nav-legacy .nav-treeview>.nav-item>.nav-link:hover {
+    background: 0 0 !important;
+    color: #fff !important;
+}
+/*
+[class*=sidebar-dark] .nav-legacy.nav-sidebar>.nav-item>.nav-link.active {
+    color: #01ff70 !important;
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item.menu-open>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item:hover>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link:focus {
+    background-color: rgba(255,255,255,.1);
+    color: #01ff70;
+} */
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #28a745 !important;
+}
+

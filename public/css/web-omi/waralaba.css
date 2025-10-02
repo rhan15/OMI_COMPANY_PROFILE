@@ -1,0 +1,271 @@
+.banner img {
+    width: 100%;
+}
+
+.banner .banner-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 25px 0 25px 0;
+    color: #000000;
+}
+
+.banner p,
+.banner dl {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.banner .banner-angka {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #F1CF00;
+    text-align: center;
+}
+
+.banner .banner-ket {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.banner .btn-daftar {
+    background: #00903C;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    /* display: inline-block; */
+    /* Font  */
+    color: white;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.banner .btn-daftar:hover {
+    background-color: #00682b;
+}
+
+/* ------------------------ */
+/* --- SYARAT KETENTUAN --- */
+/* ------------------------ */
+#Syarat___Ketentuan .title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    line-height: 25px;
+}
+
+#Syarat___Ketentuan .syarat {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 8px;
+    align-self: center;
+}
+
+#Syarat___Ketentuan .icon {
+    align-self: center;
+}
+
+#Syarat___Ketentuan .btn-daftar {
+    background-color: #C20524;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    /* display: inline-block; */
+    /* Font  */
+    color: white;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#Syarat___Ketentuan .btn-daftar:hover {
+    background-color: #9e0620;
+}
+
+/* ----------------------- */
+/* --- Jenis Investasi --- */
+/* ----------------------- */
+
+#Jenis_Investasi .title {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+#Jenis_Investasi .invest-table {
+    overflow-x: auto;
+    max-width: 852px;
+}
+
+#Jenis_Investasi table {
+    background-color: #E0E0E0;
+    width: auto;
+
+}
+
+#Jenis_Investasi table,
+th,
+td {
+    border: 1px solid #cacaca;
+}
+
+#Jenis_Investasi th,
+td {
+    padding: 10px;
+}
+
+#Jenis_Investasi table tr th,
+#Jenis_Investasi table tr td {
+    text-align: center;
+    align-self: center;
+}
+
+#Jenis_Investasi .keterangan-invest {
+    padding: 10px 0 30px 0;
+}
+
+#Jenis_Investasi .keterangan-invest dt,
+#Jenis_Investasi .keterangan-invest dd {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/* -------------------- */
+/* --- KISAH SUKSES --- */
+/* -------------------- */
+
+#Kisah_Sukses .item-video {
+    border-radius: 25px;
+    width: 100%;
+    height: 215.84px;
+    overflow: hidden;
+}
+
+#Kisah_Sukses .text-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+#Kisah_Sukses .text-date {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+    margin-top: 4px;
+}
+
+#Kisah_Sukses .text-detail {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    text-align: justify;
+}
+
+/* ------------------- */
+/* --- TANYA JAWAB --- */
+/* ------------------- */
+
+#Tanya_Jawab .card-body {
+    padding: 0px !important;
+}
+
+
+
+#Tanya_Jawab button {
+    /* font */
+    padding: 10px 20px 10px 20px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-align: start;
+}
+
+#Tanya_Jawab .faq-info::before {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 5px;
+    border-bottom: 1px solid #828282;
+    content: '';
+}
+
+#Tanya_Jawab .faq-info {
+    /* padding-bottom: 0px;
+    margin-bottom: 0px; */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4F4F4F;
+    text-align: justify;
+
+    padding: 5px 20px 10px 20px;
+}
+
+#Tanya_Jawab .card p {
+    margin-bottom: 30px;
+}
+
+#Tanya_Jawab .card li {
+    padding-inline-start: 20px;
+}
+
+#Tanya_Jawab i.fas:before {
+    content: "\f107";
+}
+
+#Tanya_Jawab .collapsed i.fas:before {
+    content: "\f106";
+}

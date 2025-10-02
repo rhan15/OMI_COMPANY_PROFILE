@@ -1,0 +1,16 @@
+@media (min-width: 600px) {
+    .left_navbar {
+        display: block;
+    }
+    .right_navbar{
+        display: block;
+    }
+}
+@media (min-width: 100px) {
+    .left_navbar {
+        display: none;
+    }
+    .right_navbar{
+        display: block;
+    }
+}

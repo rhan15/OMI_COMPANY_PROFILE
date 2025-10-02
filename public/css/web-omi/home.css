@@ -1,0 +1,392 @@
+/* ================================= Universal ================================= */
+
+body {
+    overflow-x: hidden;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.section{
+
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    border-bottom: 1px solid #BDBDBD
+}
+
+.eclipse1 {
+    position: absolute;
+    width: 166px;
+    height: 166px;
+    left: -82px;
+    top: 630.88px;
+    border-radius: 50%;
+    /* Blue */
+
+    background: #006EC7;
+    opacity: 0.1;
+}
+
+.eclipse2 {
+    position: absolute;
+    width: 264px;
+    height: 264px;
+    right: -100px;
+    /* left: 900px; */
+    top: 522.88px;
+    border-radius: 50%;
+    /* Red */
+
+    background: #CC292A;
+    opacity: 0.05;
+}
+
+.vector1 {
+    position: absolute;
+    right: -60px;
+    /* left: 900px; */
+    top: 100px;
+
+    /* White */
+
+}
+
+/* ================================= Banner ================================= */
+.banner {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.owl-carousel-banner {
+    margin-bottom: 20px;
+}
+
+.owl-carousel-banner img {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    /* min-height: 328px; */
+    max-height: 328px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.owl-carousel-banner .owl-dots {
+    position: relative;
+    /* right: 0; */
+    margin-top: -30px !important;
+    /* z-index: 90 !important; */
+}
+
+/* ================================= Promo ================================= */
+.owl-carousel-promo .owl-prev {
+    width: 30px;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: -40px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-carousel-promo .owl-next {
+    width: 30px;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    right: -40px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-carousel-promo {
+    margin-top: 5%;
+}
+
+
+/* ================================= Welcome ================================= */
+.welcome img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.quote p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+/* ================================= Why OMI ================================= */
+
+.produk-bisnis .owl-carousel-produk-bisnis .item{
+    width: 100%;
+    height: 400px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+}
+
+.produk-bisnis .owl-carousel-produk-bisnis .card{
+    width: 95%;
+    height: 95%;
+    min-height: 300px;
+    border-radius: 5%;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.produk-bisnis .owl-carousel-produk-bisnis .card .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background: #F1CF00;
+}
+
+
+.produk-bisnis .owl-carousel-produk-bisnis .card .icon img{
+    width: 100%;
+    height: auto;
+}
+
+
+.produk-bisnis .card .card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.produk-bisnis .card .card-body .card-title{
+
+    margin-top: 20px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.produk-bisnis .card .card-body .logo{
+    display: block;
+    min-height: 80px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.produk-bisnis .card .card-body .deskripsi {
+    margin-top: auto;
+}
+
+.produk-bisnis .card .card-body p{
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.produk-bisnis .card .deskripsi .btn{
+    width: 100%;
+}
+
+.produk-bisnis .card p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+/* ================================= Video/Kisah Sukses ================================= */
+
+.owl-carousel-kisah iframe{
+    display: block;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ================================= Daftar ================================= */
+.bg{
+
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* background: linear-gradient(180deg, #C4C4C4 0%, #C4C4C4 100%); */
+    /* opacity: 0.9; */
+}
+
+.section.daftar h2{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800 !important;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.section.daftar .btn{
+    /* width: 280px;
+    height: 72.48px; */
+
+    /* Red */
+    background: #C20524;
+    /* border-radius: 12px; */
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+.section.daftar .btn:hover{
+    background: #790619;
+}
+
+/* ================================= Berita ================================= */
+
+.section.daftar, .section.video, .section.berita {
+    border-bottom: none;
+}
+
+.berita-terkini .owl-carousel-berita-terkini .owl-item{
+    height: 400px;
+
+}
+
+.berita-terkini .owl-carousel-berita-terkini .card{
+    height: 400px;
+
+}
+
+
+.berita-terkini a {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.berita-terkini .card .thumbnail {
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.berita-terkini .card-body {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    font-family: Mulish !important;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.berita-terkini .card-body .title h5 {
+    text-align: left !important;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.berita-terkini .card-body .tanggal {
+    margin-bottom: 10px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.berita-terkini .selengkapnya {
+    margin-top: auto;
+    background-color: white;
+
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.berita-terkini .selengkapnya a{
+    /* margin-bottom: 0; */
+    color: #2F80ED !important;
+}
+

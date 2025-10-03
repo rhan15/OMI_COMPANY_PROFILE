@@ -72,8 +72,8 @@ class blog_controller extends Controller
 
                 // $request->file('gambar')->move(public_path('Blog'), $filename);
                 // AWS
-                Storage::disk('s3')->put('igr/Blog/'.$filename, file_get_contents($fileContents));
-                $path = Storage::disk('s3')->url('igr/Blog/'.$filename);
+                Storage::disk('s3')->put('Public/comprof/Blog/'.$filename, file_get_contents($fileContents));
+                $path = Storage::disk('s3')->url('Public/comprof/Blog/'.$filename);
 
             } else {
                 $path = null;
@@ -154,8 +154,8 @@ class blog_controller extends Controller
 
                 // $request->file('gambar')->move(public_path('Blog'), $filename);
                 // AWS
-                Storage::disk('s3')->put('igr/Blog/'.$filename, file_get_contents($fileContents));
-                $path = Storage::disk('s3')->url('igr/Blog/'.$filename);
+                Storage::disk('s3')->put('Public/comprof/Blog/'.$filename, file_get_contents($fileContents));
+                $path = Storage::disk('s3')->url('Public/comprof/Blog/'.$filename);
             } else {
                 $path = Blogs::searchId(\request('id'))[0]['path_image'];
             }

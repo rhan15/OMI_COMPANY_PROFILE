@@ -153,8 +153,8 @@ class promo_controller extends Controller
                 $filename = str_replace(" ","",$filename);
                 
                 // AWS
-                Storage::disk('s3')->put('igr/'.$folder.'/'.$filename, file_get_contents($fileContent));
-                $path = Storage::disk('s3')->url('igr/'.$folder.'/'.$filename);
+                Storage::disk('s3')->put('Public/comprof/Promo/'.$filename, file_get_contents($fileContent));
+                $path = Storage::disk('s3')->url('Public/comprof/Promo/'.$filename);
 
                 $path_katalog[] = $path;
             }
@@ -274,8 +274,8 @@ class promo_controller extends Controller
                     $filename = str_replace(" ","",$filename);
 
                     // AWS
-                    Storage::disk('s3')->put('igr/'.$folder.'/'.$filename, file_get_contents($fileContent));
-                    $path = Storage::disk('s3')->url('igr/'.$folder.'/'.$filename);
+                    Storage::disk('s3')->put('Public/comprof/Promo/'.$filename, file_get_contents($fileContent));
+                    $path = Storage::disk('s3')->url('Public/comprof/Promo/'.$filename);
 
                     $path_katalog[] = $path;
                 }

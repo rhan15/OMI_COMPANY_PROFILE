@@ -215,7 +215,6 @@
                                 <tr id="row_{{ $banner['id'] }}" onclick="preview({{ json_encode($banner) }})" <?php if($outdated){?>data-toggle="tooltip" title="{{$outdated_message}}"<?php } ?>>
                                     <td>{{++$i}}</td>
                                     <td>{{$banner['title']}}</td>
-                                    <td>{{$banner['path_image'] }}</td>
                                     <td data-sort='{{date_format($start_date, "Ymd")}}' <?php if ($outdated) { ?>style="color:#dc3545" <?php } ?>>{{ date_format($start_date, "d/M/Y") }} - {{ date_format($end_date, "d/M/Y") }}</td>
                                     <td><img src="{{ $banner['path_image'] }}" alt=""></td>
                                     <td onclick="event.cancelBubble=true; return false;">

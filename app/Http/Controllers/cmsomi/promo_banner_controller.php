@@ -88,8 +88,8 @@ class promo_banner_controller extends Controller
             $filename = $fileContent->getClientOriginalName();
             // $fileContent->move(public_path('omi/'.$folder), $filename);
             // AWS
-            Storage::disk('s3')->put('omi/Promo Banner/'.$filename, file_get_contents($fileContent));
-            $path = Storage::disk('s3')->url('omi/Promo Banner/'.$filename);
+            Storage::disk('s3')->put('Public/comprof/Promo Banner/'.$filename, file_get_contents($fileContent));
+            $path = Storage::disk('s3')->url('Public/comprof/Promo Banner/'.$filename);
             $path_banner = $path;
 
             $title = \request('title');
@@ -173,8 +173,8 @@ class promo_banner_controller extends Controller
                 $filename = $fileContent->getClientOriginalName();
                 // $fileContent->move(public_path('omi/'.$folder), $filename);
                 // AWS
-                Storage::disk('s3')->put('omi/Promo Banner/'.$filename, file_get_contents($fileContent));
-                $path = Storage::disk('s3')->url('omi/Promo Banner/'.$filename);
+                Storage::disk('s3')->put('Public/comprof/Promo Banner/'.$filename, file_get_contents($fileContent));
+                $path = Storage::disk('s3')->url('Public/comprof/Promo Banner/'.$filename);
                 $path_banner = $path;
             } else { //ambil banner lama
                 $path_banner = Promo_type::searchId(\request('id'))['path_image'];

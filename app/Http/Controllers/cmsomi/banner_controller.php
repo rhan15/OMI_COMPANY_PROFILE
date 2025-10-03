@@ -69,8 +69,8 @@ class banner_controller extends Controller
 
 
                 // AWS
-                Storage::disk('s3')->put('omi/Banner/'.$filename, file_get_contents($fileContents));
-                $path = Storage::disk('s3')->url('omi/Banner/'.$filename);
+                Storage::disk('s3')->put('Public/comprof/Banner/'.$filename, file_get_contents($fileContents));
+                $path = Storage::disk('s3')->url('Public/comprof/Banner/'.$filename);
 
 
 
@@ -171,8 +171,8 @@ class banner_controller extends Controller
 
                 // $request->file('gambar')->move(public_path('Banner'), $filename);
 
-                Storage::disk('s3')->put('omi/Banner/'.$filename, file_get_contents($fileContents));
-                $path = Storage::disk('s3')->url('omi/Banner/'.$filename);
+                Storage::disk('s3')->put('Public/comprof/Banner/'.$filename, file_get_contents($fileContents));
+                $path = Storage::disk('s3')->url('Public/comprof/Banner/'.$filename);
                 // $path = '';
 
 

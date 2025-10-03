@@ -84,8 +84,8 @@ class kisah_sukses_controller extends Controller
 
                     // $request->file('gambar')->move(public_path('Banner'), $filename);
 
-                    Storage::disk('s3')->put('omi/KisahSukses/'.$filename, file_get_contents($fileContents));
-                    $path = Storage::disk('s3')->url('omi/KisahSukses/'.$filename);
+                    Storage::disk('s3')->put('Public/comprof/KisahSukses/'.$filename, file_get_contents($fileContents));
+                    $path = Storage::disk('s3')->url('Public/comprof/KisahSukses/'.$filename);
                     // $path = '';
                 } else {
                     // Logs::writelogs(Auth::user()->id,'Add New Banner Failed - wrong image format[use .jpg .jpeg or png image format only]|user='.Auth::user()->id);
@@ -178,8 +178,8 @@ class kisah_sukses_controller extends Controller
 
                     // $request->file('gambar')->move(public_path('Banner'), $filename);
 
-                    Storage::disk('s3')->put('omi/KisahSukses/'.$filename, file_get_contents($fileContents));
-                    $path = Storage::disk('s3')->url('omi/KisahSukses/'.$filename);
+                    Storage::disk('s3')->put('Public/comprof/KisahSukses/'.$filename, file_get_contents($fileContents));
+                    $path = Storage::disk('s3')->url('Public/comprof/KisahSukses/'.$filename);
                     // $path = '';
                 } else {
                     $path = Testimonials::searchId(\request('id'))[0]['url'];
